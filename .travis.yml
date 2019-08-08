@@ -1,0 +1,10 @@
+language: go
+dist: xenial
+go:
+- "1.12.x"
+cache:
+  directories:
+    - $HOME/gopath/pkg/mod
+script:
+- export PATH=${PATH}:${HOME}/bin:${HOME}/gopath/bin
+- make travis

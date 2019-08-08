@@ -1,0 +1,17 @@
+/*
+
+!/internal/
+/internal/examples/calc/calc
+/internal/examples/calc/calc-cli
+!/.gitignore
+!/.golint_exclude
+!/.travis.yml
+!/doc.go
+!/generate_test.go
+!/generate.go
+!/go.mod
+!/go.sum
+!/LICENSE
+!/Makefile
+!/NOTICE
+!/README.md
